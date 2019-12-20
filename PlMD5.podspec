@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PlMD5"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "转换MD5"
 
   # This description is used to generate tags and improve search results.
@@ -81,7 +81,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/PengLi12/PlMD5.git", :tag => spec.version }
+  spec.source       = { :git => "https://github.com/PengLi12/PlMD5.git", :tag => spec.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
